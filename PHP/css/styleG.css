@@ -1,0 +1,113 @@
+
+@font-face {
+  font-family: "Kiona";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Kiona-Regular.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: "Jack";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/JasperDaniels.woff2") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+      U+FEFF, U+FFFD;
+}
+
+#idA{
+    color: white;
+    font-weight: 600;
+    font-family: Kiona;
+    font-size: 18px;
+  
+}
+
+#desplegableColorFondo{
+    background-color: black;
+    color: white;
+}
+
+nav{
+  height: 100%;
+  background-color: black;
+}
+
+#navColor{
+  background-color: black;
+}
+
+
+#navbar-content{
+    background-color:  black;
+}
+
+#navMovil{
+    background-color: black;
+}
+
+#botonMovil{
+    border: 2px white solid;
+    background-color: rgba(240, 234, 234, 0.699);
+    border-radius: 6px;
+    margin-left: -10px;
+}
+
+
+#nombreMovil{
+  color: white;
+  font-family: Jack;
+  font-style: italic;
+  letter-spacing: 4px;
+  font-size: 50px;
+}
+
+
+#principal{
+    background-color: rgba(215, 215, 215, 0.452);
+    margin-top: -20px;
+    margin-bottom: -20px;
+     background-image: url(../images/NaturalezaFlores/desenfocadaBlanco.jpg); 
+}
+
+
+.carousel {
+  min-height: 650px;
+}
+
+.carousel .carousel-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  width: 400px;
+  height: 400px;
+}
+
+.carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+}
+
+
+#footerBodas {
+  margin-top: -10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  font-family: Kiona;
+  font-weight: bold;
+}
+
+

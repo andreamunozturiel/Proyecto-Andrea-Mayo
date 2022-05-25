@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Jack";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/JasperDaniels.woff2") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+      U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Kiona';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Kiona-Regular.woff2") format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+ 
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+
+@media (max-width: 850px) {
+    .navbar {
+        background: rgb(0, 0, 0);
+        
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: rgb(255, 255, 255);
+        font-family: Jack;
+        font-size: 30px;
+        text-transform: lowercase;
+    }
+}
+
+
+
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+
+body {
+    min-height: 110vh;
+    background-image: url(../images/NaturalezaFlores/_MG_52.png); 
+}
+
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.425);
+    font-family:Kiona;
+    
+}
+
+.content h1 {
+    font-size: 60px;
+    margin-top: 80px;
+    text-transform: uppercase;
+
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: Kiona;
+    font-size: 18px;
+}
+
+.buttonInicio {
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(139, 0, 0);
+    background-color: rgba(148, 8, 8, 0.322);
+    color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+}
+
+
+

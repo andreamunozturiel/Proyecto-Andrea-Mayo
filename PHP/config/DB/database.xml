@@ -1,0 +1,15 @@
+<?xml version="1.0" enconding="UTF-8"?>
+<!--
+** Configuracion base de datos
+** Pagina fotografia
+** Andrea Muñoz
+** 2022 
+
+-->
+
+<database>
+	<host>127.0.0.1</host>
+	<name>fotografia_web</name>
+	<user>administrador</user>
+	<contrasenha>abc123.</contrasenha>
+</database>

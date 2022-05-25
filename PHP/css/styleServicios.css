@@ -1,0 +1,156 @@
+
+@font-face {
+    font-family: "Jack";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/JasperDaniels.woff2") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+      U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Kiona';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Kiona-Regular.woff2") format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+#idA{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: Kiona;
+    font-size: 18px;
+  
+}
+
+
+#NombreMovil{
+    color: rgb(0, 0, 0);
+    font-family: Jack;
+    font-style: italic;
+    letter-spacing: 4px;
+  }
+  
+  #botonMovil{
+    border: 2px white solid;
+    background-color: rgba(240, 234, 234, 0.699);
+    border-radius: 4px;
+  }
+
+
+
+#footerServicios {
+  margin-top: 0px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(186, 221, 245);
+  font-family: Kiona;
+  font-weight: bold;
+
+}
+
+.textFooter{
+  color: black;
+}
+
+.textFooter:hover{
+  color: black;
+}
+
+a:hover{
+  background-color: rgba(255, 255, 255, 0.466);
+  border-radius: 10px;
+}
+
+
+
+#services{
+    background-color: rgba(219, 219, 219, 0.486);
+    margin-top: 10px;
+}
+
+#textPhoto{
+    margin-top: 10px;
+    font-family: Kiona;
+    
+}
+
+
+.listaServicios{
+    column-count: 3;
+}
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.botonReservar {
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 0.5em 1.2em;
+    background: #5ec9e4;
+    border: 1px solid;
+    border-color: #5ec9e4;
+    position: relative;
+    margin-left: 80%;
+    margin-bottom: 5px;
+  }
+  
+.img-exterior{
+    float: right;
+    margin: 0%;
+    width: 50%;
+}
+
+.img-interior{
+  float: right;
+  width: 50%;
+}
+
+.img-estudio{
+  width: 50%;
+  float: right;
+}
+
+#principalText{
+    border-bottom: #8bdef3 solid 6px;
+}
+
+.img-edicion{
+  width: 50%;
+  float: right;
+}
+
+
+
+#footerProfile {
+  margin-top: 0px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #c39bd3;
+  font-family: Kiona;
+  font-weight: bold;
+
+}
+
+.button{
+  border-radius: 5px;
+  border-color: #a7d9e6;
+  background-color: #81a6c9;
+  color: white;
+}
